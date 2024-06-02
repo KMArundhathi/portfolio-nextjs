@@ -5,6 +5,7 @@ import certichainImg from "@/public/certichain.png";
 import secImg from "@/public/sec.png";
 import blockhashImg from "@/public/blockhash.png";
 import formImg from "@/public/form.png";
+import signImg from "@/public/sign.jpg";
 
 export const links = [
   {
@@ -59,6 +60,13 @@ export const projectsData = [
       " Certichain, a platform that leverages blockchain technology to provide a seamless, tamperproof certification process for academic institutions.Our platform comes with multiple servings, such as multiple user management,  customisable templates,  course management modules, and many other functions, allowing academic institutions to tailor them to their needs. ",
     tags: ["React", "Next.js", "Material UI"],
     imageUrl: certichainImg
+  },
+  {
+    title: "Sign-A-Doc",
+    description:
+      " Sign-A-Doc will help you sign documents where multi-party signatures are required and help you keep your documents tamper-proof using Blockchain technology. ",
+    tags: ["React", "Next.js", "Bootstrap"],
+    imageUrl: signImg
   },
   {
     title: "SEC Dashboard",
