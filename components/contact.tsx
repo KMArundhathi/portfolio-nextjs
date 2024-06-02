@@ -12,7 +12,7 @@ export default function Contact() {
   const [senderEmail, setSenderEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const handleSubmit = (event) => {
+  const handleSubmit = (event:any) => {
     event.preventDefault();
     // Show success toast notification
     toast.success("Submitted successfully!");
