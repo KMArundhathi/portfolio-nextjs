@@ -4,6 +4,7 @@ import { FaReact } from "react-icons/fa";
 import certichainImg from "@/public/certichain.png";
 import secImg from "@/public/sec.png";
 import blockhashImg from "@/public/blockhash.png";
+import kbaDashboardImg from "@/public/kbadashboard.png";
 import formImg from "@/public/form.png";
 import signImg from "@/public/sign.jpg";
 
@@ -58,21 +59,28 @@ export const projectsData = [
     title: "Certichain",
     description:
       " Certichain, a platform that leverages blockchain technology to provide a seamless, tamperproof certification process for academic institutions.Our platform comes with multiple servings, such as multiple user management,  customisable templates,  course management modules, and many other functions, allowing academic institutions to tailor them to their needs. ",
-    tags: ["React", "Next.js", "Material UI"],
+    tags: ["React", "Next.js", "Material UI","Go","MongoDB"],
     imageUrl: certichainImg
+  },
+  {
+    title: "KBA’s Course Management System (CMS)",
+    description:
+      "Developed the Dashboard for the KBA portal  which manages course details, student data, tracking payment history and events conducted. ",
+    tags: ["React", "Next.js", "Material UI","Nodejs","MySQL"],
+    imageUrl: kbaDashboardImg
   },
   {
     title: "Sign-A-Doc",
     description:
       " Sign-A-Doc will help you sign documents where multi-party signatures are required and help you keep your documents tamper-proof using Blockchain technology. ",
-    tags: ["React", "Next.js", "Bootstrap"],
+    tags: ["React", "Next.js", "Bootstrap","Nodejs","MongoDB"],
     imageUrl: signImg
   },
   {
     title: "SEC Dashboard",
     description:
       "After declaration of an election, the tasks to be done during and after the election are handled by each election officer through this web app.",
-    tags: ["React", "Next.js", "Material UI"],
+    tags: ["React", "Next.js", "Material UI","Nodejs","PostgreSQL"],
     imageUrl: secImg,
   },
   {
@@ -94,10 +102,13 @@ export const skillsData = [
   "HTML",
   "CSS",
   "JavaScript",
+  "Typescript",
   "React",
   "Next.js",
+  "Svelte",
   "Tailwind",
   "Material UI",
   "Git",
-  "Blockchain"
+  "Blockchain",
+  "Docker"
 ] as const;
